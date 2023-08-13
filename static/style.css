@@ -1,0 +1,36 @@
+.divcontainer {
+    height: 100%;
+}
+.first-container {
+    height: 45%;
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.circle{
+    background-image: linear-gradient(180deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+.second-container {
+    height: 50%;
+}
+
+.btn-dark:hover{
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media screen and (min-width: 992px) {
+    .divcontainer {
+        width: 40%;
+        height: 60%;
+    }
+    .first-container {
+        height: 100%;
+    }
+    .second-container {
+        height: 100%;
+    }
+    .summary {
+        font-size: 1.2rem;
+    }
+    .listings{
+        font-size: 2em;
+    }
+}
